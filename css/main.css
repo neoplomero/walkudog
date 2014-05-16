@@ -269,7 +269,7 @@ section figure
 {
     float: left;
     background: #1d71b8;
-    margin: 2%;
+    margin: 0 2%;
     padding: 0.75em;
 }
 #area
@@ -277,6 +277,23 @@ section figure
     float: right;
 
 }
+#benefits
+{
+    margin-top: 2%;
+
+
+}
+#benefits img
+{
+    width: 400px;
+}
+#benefits ul
+
+{
+    text-align: center;
+list-style-type: none;
+}
+
 #contacto
 {
     background: white;
@@ -319,29 +336,38 @@ section figure
     padding: 0.5em;
     text-decoration: none;
 }
-#ppal
+#mapa
+{
+    width: 400px;
+}
+.ppal
 {
     display: inline-block;
+    margin-top: 3.5%;
   
 }
 
-#ppal img
+.ppal img
 {
 
     width: 400px;
 }
+.ppal p 
+{
+    margin: 0.5em;
+}
 .contenido
-{   
+{       
     display: inline;
-    margin: 0 2% 0 3%;
+    padding: 0;
     text-align: justify;
 }
 .contenido h2
 {   
     color: #1d71b8;
     text-align: center;
+    margin: 0;
 }
-
 
 
 
