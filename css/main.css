@@ -281,7 +281,6 @@ section figure
 {
     margin-top: 2%;
 
-
 }
 #benefits img
 {
@@ -306,6 +305,7 @@ list-style-type: none;
 #contacto h2   
 {
     color: #1d71b8;
+    text-align: center;
 }
 #contacto h3 a
 {
@@ -368,8 +368,6 @@ list-style-type: none;
     text-align: center;
     margin: 0;
 }
-
-
 
 
 
