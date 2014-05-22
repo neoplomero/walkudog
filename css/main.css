@@ -387,6 +387,12 @@ section figure
 {
     width: 400px;
 }
+#mapamobil
+{
+    display: none;
+}
+
+
 .ppal
 {
     display: inline-block;
@@ -527,12 +533,10 @@ section figure
 }
 
 /* ==========================================================================
-   EXAMPLE Media Queries for Responsive Design.
-   These examples override the primary ('mobile first') styles.
-   Modify as content requires.
+   Tabs
    ========================================================================== */
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 900px) {
 
     header h1
     {
@@ -557,6 +561,194 @@ section figure
        (min-resolution: 120dpi) {
     /* Style adjustments for high resolution devices */
 }
+
+
+
+/* ==========================================================================
+  MOBILES
+   ========================================================================== */
+@media only screen and (max-width: 360px) {
+
+article
+{
+    max-width: 98%;
+    margin: 0 2%;
+}
+header
+{
+    overflow: hidden;
+    position: relative;
+    
+     
+}
+header h1
+{
+     display: inline-block;    
+     font-size: 1.5em;
+     font-weight: bold;
+     margin-top: 3%;
+     display: none;
+     
+
+}
+
+header #logo img
+{
+    
+    margin: 3% 1% 0 3%;
+    float: left;
+    width: 100px;
+}
+
+header #schedule p
+{
+   
+   margin: 2.5em 1em 0 1%;
+   position: absolute;
+   right: 0; 
+   top:2%;
+   display: inline-block;
+}
+
+
+#socialnav
+{
+    background: none;
+     
+  
+    padding: 1% 0 0 0;
+    top: 3%;
+    right: 7%;
+    position: absolute;
+
+
+}
+#socialnav ul
+{
+    
+    margin:0;
+    padding: 0;
+    padding-top: 1%;
+}
+#socialnav ul li
+{
+    display: inline-block;
+    margin: 0 0.25em 0 0;
+}
+#socialnav a
+{
+    color: #9bdb3b;
+    margin:0;
+    padding: 0;
+    text-decoration: none;
+}
+
+
+nav
+{
+    background: #1d71b8;
+    margin: 0;
+    margin-bottom: 2%;
+    margin-left: 3%;
+    margin-right: 3%;
+    padding: 0 ;
+    position: relative;
+}
+
+nav ul li
+{
+    display: inline-block;
+    margin: 0 10% 0 -9%;
+    font-size: 0.9em;
+
+}
+nav ul li a
+{
+    color: white;
+    display: block;
+    padding: 0.8em 0;
+    padding-right: 2%;
+    text-decoration: none;
+
+}
+nav ul #contact
+{
+    
+    position: absolute;
+    top: -0.25em;
+    right: -7%;
+}
+nav ul #contact a
+{
+    
+    background: #9bdb3b;
+    font-style: bold;
+    text-shadow:rgba(0,0,0,0.5) 2px 2px 5px;    
+    padding: 1em 0.5em;
+    
+}
+
+
+#benefits img
+{
+    width: 100%;
+}
+#benefits ul
+
+{
+    font-size: 0.8em;
+    padding-left: 7%;
+
+}
+#contacto
+{
+    
+    margin: 0 ;
+   
+
+}
+
+#mapa 
+{
+    display: none;
+    
+}
+#mapamobil 
+{
+    display: inline-block;
+    width: 90%;
+    
+}
+
+.ppal
+{
+    display: inline-block;
+    margin-top: 3.5%;
+    font-size: 0.8em;
+  
+}
+
+.ppal img
+{
+
+    width: 100%;
+}
+.ppal p 
+{
+    margin: 0.5em;
+}
+
+
+
+
+@media print,
+       (-o-min-device-pixel-ratio: 5/4),
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 120dpi) {
+    /* Style adjustments for high resolution devices */
+}
+}
+
 
 /* ==========================================================================
    Print styles.
