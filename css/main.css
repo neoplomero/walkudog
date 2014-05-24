@@ -213,14 +213,13 @@ header h1
      
 
 }
-
+   
 header #logo img
 {
-    
     margin: 1% 1% 0 12%;
     float: left;
     width: 100px;
-}
+} 
 
 header #schedule p
 {
@@ -262,7 +261,14 @@ nav ul #contact a
     font-style: bold;
     text-shadow:rgba(0,0,0,0.5) 2px 2px 5px;    
     padding: 1.5em;
+    transition: .5s;
     
+}
+nav ul #contact a:hover
+{
+    
+    transform: rotate(360deg);
+    color: white;
 }
 
 
@@ -271,10 +277,17 @@ nav ul li a
 {
     color: white;
     display: block;
-    padding: 1em 0;
+    padding: 1em 1em;
     text-decoration: none;
+    
 
 }
+nav ul li a:hover
+{
+    background: white;
+    color: #1d71b8 ;
+}
+
 section
 {
     overflow: hidden;
@@ -382,6 +395,11 @@ section figure
     margin:0;
     padding: 0;
     text-decoration: none;
+    -webkit-transition: .4s;
+}
+#socialnav a:hover
+{
+    font-size: 2em;
 }
 #mapa
 {
